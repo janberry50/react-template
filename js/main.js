@@ -1,4 +1,4 @@
-import {hello} from './components/default';
+import {hello} from './components/default/default';
 
 hello();
 

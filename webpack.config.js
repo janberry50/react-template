@@ -8,5 +8,17 @@ module.exports = {
         path: path.join(__dirname, './wwwroot/dist'),  
         publicPath: '/dist/'
     },
+    module: {
+        rules: [
+            {
+                test: /\.scss$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'sass-loader'
+                ]
+            }
+        ]
+    },
     mode: 'development'
 }
