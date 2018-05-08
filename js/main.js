@@ -1,7 +1,12 @@
-import {hello} from './components/default/default';
+import HelloComponent from './components/hello/hello';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-hello();
+ReactDOM.render(
+    <HelloComponent />,
+    document.getElementById('root')
+);
 
-if(module['hot']) {
+if(module['hot']){
     module['hot'].accept();
 }
