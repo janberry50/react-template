@@ -1,9 +1,6 @@
-obj/Debug/netcoreapp2.0/ReactTemplate.csproj.CoreCompileInputs.cache
-obj/Debug/netcoreapp2.0/ReactTemplate.AssemblyInfo.cs
-obj/Debug/netcoreapp2.0/ReactTemplate.AssemblyInfoInputs.cache
-obj/Debug/netcoreapp2.0/ReactTemplate.csprojAssemblyReference.cache
-obj/ReactTemplate.csproj.nuget.cache
-obj/ReactTemplate.csproj.nuget.g.props
-obj/ReactTemplate.csproj.nuget.g.targets
-obj/project.assets.json
+obj
+bin
+node_modules
+.vs
+.vscode
 ReactTemplate.csproj.user
